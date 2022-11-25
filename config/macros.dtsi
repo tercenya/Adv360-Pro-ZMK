@@ -1,12 +1,12 @@
-macro_desktop--: macro_desktop--{
+macro_desktop_left: macro_desktop_left{
 compatible = "zmk,behavior-macro";
-label = "macro_desktop--";
+label = "macro_desktop_left";
 #binding-cells = <0>;
 bindings = <&kp LCTRL>, <&kp LEFT_WIN>, <&kp LEFT_ARROW>;
 };
-macro_desktop++: macro_desktop++{
+macro_desktop_right: macro_desktop_right{
 compatible = "zmk,behavior-macro";
-label = "macro_desktop++";
+label = "macro_desktop_right";
 #binding-cells = <0>;
 bindings = <&kp LCTRL>, <&kp LEFT_WIN>, <&kp RIGHT_ARROW>;
 };
